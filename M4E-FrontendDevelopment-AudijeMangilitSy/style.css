@@ -22,10 +22,13 @@ comments of my program.
 
 h1 {
   margin-bottom: 20px;
+  color: #343a40;
+  text-align: center;
 }
 
 table {
-  border-collapse: 0px;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 th, td {
@@ -39,6 +42,23 @@ th {
   color: #fff;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+audio {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Fields, dropdown, button section (Step 3) */
+.form-row {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
+
 
 /* push attempt 7 - Hyde */
