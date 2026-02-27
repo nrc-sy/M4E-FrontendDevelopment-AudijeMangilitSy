@@ -23,3 +23,22 @@ comments of my program.
 h1 {
   margin-bottom: 20px;
 }
+
+table {
+  border-collapse: 0px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #333A3E;
+  color: #fff;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* push attempt 7 - Hyde */
