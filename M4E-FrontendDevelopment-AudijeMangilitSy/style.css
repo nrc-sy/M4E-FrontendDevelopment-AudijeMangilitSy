@@ -1,5 +1,5 @@
 /*
-, ; , ; Nathan Riley Sy, 244311
+, ; Sebastian O. Mangilit, 242880; Nathan Riley Sy, 244311
  February , 2026 
 
 I hereby attest to the truth of the following facts:
@@ -51,7 +51,6 @@ audio {
   margin: 20px auto;
 }
 
-/* Fields, dropdown, button section (Step 3) */
 .form-row {
   margin-bottom: 20px;
 }
@@ -60,5 +59,9 @@ button {
   margin-top: 10px;
 }
 
+.carousel img {
+    height: 700px;
+  object-fit: contain;
+}
 
 /* push attempt 7 - Hyde */

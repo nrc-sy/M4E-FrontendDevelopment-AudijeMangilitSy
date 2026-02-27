@@ -1,5 +1,5 @@
 <!-- 
- , ; , ; Nathan Riley Sy, 244311
+ , ; Sebastian O. Mangilit, 242880; Nathan Riley Sy, 244311
 February , 2026 
 
 I hereby attest to the truth of the following facts:
@@ -18,18 +18,48 @@ comments of my program.
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Activity</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-  <script src="./bootstrap/jquery-3.5.1.slim.min.js"></script>
-  <script src="./bootstrap/popper.min.js"></script>
-  <script src="./bootstrap/js/bootstrap.min.js"></script>
+<title>Activity</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
   <audio autoplay loop src="Mayday.mp3" type="audio/mpeg"></audio>
+
   <div class="container">
     <h1 class="text-center">Some Header</h1>
+
+
     <!-- fieldsanddropdown -->
+    <div class="row justify-content-center">
+
+      <div class="col-2">
+        <label>Field 1</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="col-2">
+        <label>Field 2</label>
+        <select class="form-control">
+          <option>Open menu</option>
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+      </div>
+
+      <div class="col-3">
+        <label>Field 3</label>
+        <textarea class="form-control"></textarea>
+      </div>
+
+      <div class="col-2 align-self-end">
+        <button class="btn btn-primary btn-block">Submit</button>
+      </div>
+
+    </div>
+
+    <!-- table -->
     <table class="table table-striped table-bordered mt-4">
       <thead>
         <tr>
@@ -114,25 +144,70 @@ comments of my program.
         </tr>
         <tr>
           <td>13</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>Lena</td>
+          <td>Oxton</td>
+          <td>Tracer</td>
         </tr>
         <tr>
           <td>14</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>Gabriel</td>
+          <td>Reyes</td>
+          <td>Reaper</td>
         </tr>
         <tr>
           <td>15</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>Akande</td>
+          <td>Ogundimu</td>
+          <td>Doomfist</td>
         </tr>
       </tbody>
     </table>
+
+    <!-- carousel -->
+    <div id="carouselExample" class="carousel slide mt-5" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="images/batman.jpg" class="d-block w-100" alt="Batman">
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/wonderwoman.jpg" class="d-block w-100" alt="Wonder Woman">
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/spiderman.jpg" class="d-block w-100" alt="Spiderman">
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/hyde.jpg" class="d-block w-100" alt="Mr. Hyde">
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/leon.jpg" class="d-block w-100" alt="The Veteran">
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/doomfist.jpg" class="d-block w-100" alt="Doomfist">
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+
   </div>
+
 </body>
 </html>
 
