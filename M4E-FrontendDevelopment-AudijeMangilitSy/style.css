@@ -1,6 +1,6 @@
 /*
-Sofia Alessandra P. Audije, 240397 ; Sebastian O. Mangilit, 242880; Nathan Riley Sy, 244311
- February , 2026 
+Sofia Alessandra P. Audije, 240397 ; Sebastian O. Mangilit, 242880; Nathan Riley C. Sy, 244311
+ March 1, 2026 
 
 I hereby attest to the truth of the following facts:
 
@@ -20,10 +20,40 @@ comments of my program.
   padding: 20px;
 }
 
+.full-width-top-border {
+  border-top: 1px solid #343a40;
+  padding-top: 5px;
+  margin-bottom: 20px;
+  width: 100vw;
+  position: relative;
+  left: -80px;
+}
+
 h1 {
   margin-bottom: 20px;
   color: #343a40;
-  text-align: center;
+}
+
+label {
+  white-space: nowrap;
+}
+
+hr.form-line {
+  border: 0;
+  border-top: 2px solid #ddd;
+  width: 100vw;
+  margin: 20px 0;
+  position: relative;
+  left: -80px;
+}
+
+label {
+  white-space: nowrap;
+}
+
+.form-section {
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 table {
@@ -31,15 +61,25 @@ table {
   width: 100%;
 }
 
-th, td {
-  padding: 10px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+table.table.table-striped thead th {
+  background-color: #343a40;
+  color: #fff;
+  font-weight: bold;
 }
 
-th {
-  background-color: #333A3E;
-  color: #fff;
+th, td {
+  padding: 20px 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  vertical-align: middle;
+}
+
+tr {
+  height: 50px; 
+}
+
+tbody td:first-child {
+  font-weight: bold;
 }
 
 tr:nth-child(even) {
@@ -60,6 +100,6 @@ button {
 }
 
 .carousel img {
-    height: 700px;
+  height: 700px;
   object-fit: contain;
 }
